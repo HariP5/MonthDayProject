@@ -16,40 +16,40 @@ public class Main {
         System.out.print("What day were you born in:");
         int dayOfMonth = input.nextInt();
 
-        if(month == 1){
+        if (month == 1) {
             months = "There are 31 days in January";
         }
-        if(month == 2){
+        if (month == 2) {
             months = "There are 28 days in February";
         }
-        if(month == 3){
+        if (month == 3) {
             months = "There are 31 days in March";
         }
-        if(month == 4){
+        if (month == 4) {
             months = "There are 30 days in April";
         }
-        if(month == 5){
+        if (month == 5) {
             months = "There are 31 days in May";
         }
-        if(month == 6){
+        if (month == 6) {
             months = "There are 30 days in June";
         }
-        if(month == 7){
+        if (month == 7) {
             months = "There are 31 days in July";
         }
-        if(month == 8){
+        if (month == 8) {
             months = "There are 31 days in August";
         }
-        if(month == 9){
+        if (month == 9) {
             months = "There are 30 days in September";
         }
-        if(month == 10){
+        if (month == 10) {
             months = "There are 31 days in October";
         }
-        if(month == 11){
+        if (month == 11) {
             months = "There are 30 days in November";
         }
-        if(month == 12){
+        if (month == 12) {
             months = "There are 31 days in December";
         }
 
@@ -69,7 +69,7 @@ public class Main {
         h += (dayOfMonth);
         h += ((13 / 5) * month - 0.2);
         h += (nYear100);
-        h += (nYear100/4);
+        h += (nYear100 / 4);
         h += (nCentury / 4);
         h -= (2 * nCentury);
         h %= 7;
@@ -79,7 +79,7 @@ public class Main {
         } else {
             if (year <= 1699) h -= 4;
         }
-        f (h < 0) h += 7;
+        f(h < 0) h += 7;
 
         System.out.print("Monday's child is fair of face,\n" +
                 "Tuesday's child is full of grace,\n" +
@@ -131,7 +131,8 @@ public class Main {
                         "Is fair and wise and good in every way.");
                 break;
 
+        }
+
+
     }
-
-
 }
