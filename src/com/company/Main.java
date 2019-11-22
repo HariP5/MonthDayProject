@@ -62,6 +62,25 @@ public class Main {
         if ((month == 11) || (month == 12))
             year--;
 
+        int nCentury = (year / 100);
+        int nYear100 = year % 100;
+
+        int h = 0;
+        h += (dayOfMonth);
+        h += ((13 / 5) * month - 0.2);
+        h += (nYear100);
+        h += (nYear100/4);
+        h += (nCentury / 4);
+        h -= (2 * nCentury);
+        h %= 7;
+
+        if (year >= 1700 && year <= 1751) {
+            h -= 3;
+        } else {
+            if (year <= 1699) h -= 4;
+        }
+
+
 
     }
 
