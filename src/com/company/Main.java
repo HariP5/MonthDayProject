@@ -53,6 +53,16 @@ public class Main {
             months = "There are 31 days in December";
         }
 
+        if (month >= 3) {
+            month -= 2;
+        } else {
+            month += 10;
+        }
+
+        if ((month == 11) || (month == 12))
+            year--;
+
+
     }
 
 
