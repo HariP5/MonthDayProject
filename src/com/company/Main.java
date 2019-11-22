@@ -16,6 +16,42 @@ public class Main {
         System.out.print("What day were you born in:");
         int dayOfMonth = input.nextInt();
 
+        if(month == 1){
+            months = "There are 31 days in January";
+        }
+        if(month == 2){
+            months = "There are 28 days in February";
+        }
+        if(month == 3){
+            months = "There are 31 days in March";
+        }
+        if(month == 4){
+            months = "There are 30 days in April";
+        }
+        if(month == 5){
+            months = "There are 31 days in May";
+        }
+        if(month == 6){
+            months = "There are 30 days in June";
+        }
+        if(month == 7){
+            months = "There are 31 days in July";
+        }
+        if(month == 8){
+            months = "There are 31 days in August";
+        }
+        if(month == 9){
+            months = "There are 30 days in September";
+        }
+        if(month == 10){
+            months = "There are 31 days in October";
+        }
+        if(month == 11){
+            months = "There are 30 days in November";
+        }
+        if(month == 12){
+            months = "There are 31 days in December";
+        }
 
     }
 
