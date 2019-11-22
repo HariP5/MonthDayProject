@@ -90,6 +90,46 @@ public class Main {
                 "But the child born on the Sabbath Day,\n" +
                 "Is fair and wise and good in every way.\n\n");
 
+        switch (h) {
+            case 0:
+
+                System.out.println(months);
+                System.out.println("You were born in Monday");
+                System.out.println("Monday's child is fair of face,\n");
+                break;
+            case 1:
+                System.out.println(months);
+                System.out.println("You were born in Tuesday");
+                System.out.println("Tuesday's child is full of grace,\n");
+                break;
+            case 2:
+
+                System.out.println(months);
+                System.out.println("You were born in Wednesday");
+                System.out.println("Wednesday's child is full of woe,\n");
+                break;
+            case 3:
+
+                System.out.println(months);
+                System.out.println("You were born in Thursday");
+                System.out.println("Thursday's child has far to go.\n");
+                break;
+            case 4:
+
+                System.out.println(months);
+                System.out.println("You were born in Friday");
+                System.out.println("Friday's child is loving and giving,\n");
+            case 5:
+                System.out.println(months);
+                System.out.println("You were born in Saturday");
+                System.out.println("Saturday's child works hard for a living,\n");
+                break;
+            case 6:
+                System.out.println(months);
+                System.out.println("You were born in Sunday");
+                System.out.println("But the child born on the Sabbath Day,\n" +
+                        "Is fair and wise and good in every way.");
+                break;
 
     }
 
