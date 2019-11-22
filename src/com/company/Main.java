@@ -79,7 +79,16 @@ public class Main {
         } else {
             if (year <= 1699) h -= 4;
         }
+        f (h < 0) h += 7;
 
+        System.out.print("Monday's child is fair of face,\n" +
+                "Tuesday's child is full of grace,\n" +
+                "Wednesday's child is full of woe,\n" +
+                "Thursday's child has far to go.\n" +
+                "Friday's child is loving and giving,\n" +
+                "Saturday's child works hard for a living,\n" +
+                "But the child born on the Sabbath Day,\n" +
+                "Is fair and wise and good in every way.\n\n");
 
 
     }
